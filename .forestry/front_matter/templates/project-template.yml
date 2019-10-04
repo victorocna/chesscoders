@@ -1,0 +1,16 @@
+---
+label: Project Template
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- name: color
+  type: color
+  label: color
+  config:
+    required: false
+    color_format: Hex
+- type: text
+  name: layout
+  label: layout

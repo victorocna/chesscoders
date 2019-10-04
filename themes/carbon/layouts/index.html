@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article class="text-center text-gray-700">
+  <h1 class="font-display font-thin text-5xl text-gray-500">{{ .Title }}</h1>
+  {{ .Content }}
+
+  {{ partial "teaser.html" . }}
+  {{ partial "our-team.html" . }}
+  {{ partial "our-process.html" . }}
+  {{ partial "how-can-you-reach-us.html" . }}
+  {{ partial "contact-us.html" . }}
+</article>
+
+{{ end }}

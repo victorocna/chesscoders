@@ -1,0 +1,12 @@
+languageCode = "en-US"
+title = "Chess Coders | Modern software solutions"
+theme = "carbon"
+enableRobotsTXT = true
+
+[params]
+  author = "Victor Ocnarescu"
+  fonts = "https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro&display=swap"
+  description = "Modern software solutions"
+  image = ""
+  favicon = ""
+  analytics = ""
