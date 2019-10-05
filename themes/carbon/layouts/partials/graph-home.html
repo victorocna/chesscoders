@@ -1,0 +1,45 @@
+<div class="relative h-screen bg-cover bg-center bg-no-repeat"
+  style="background-image: url(/images/chesscoders-home.jpg)">
+  <div class="opacity-75 h-screen"
+    style="background: rgb(0, 0, 0) -webkit-linear-gradient(top, rgba(38, 6, 51) 40%, rgb(236, 97, 93) 100%) repeat scroll 0% 0%;">
+  </div>
+  <div class="flex w-screen h-screen items-center justify-center p-8"
+    style="position: absolute; top:0; left:0; z-index: 1;">
+    <div>
+      <div class="uppercase text-white font-bold leading-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
+        <div class="text-red-500">Chess</div>
+        <div>Coders</div>
+      </div>
+      <h2 class="text-red-500 font-bold mt-2 text-2xl sm:text-2xl md:text-3xl lg:text-4xl">Modern software solutions
+      </h2>
+      <div class="text-white text-2xl mt-8">
+        <a href="/#who-we-are" class="flex flex-col bounce">
+          <i class="fas fa-sort-down" style="line-height: 14px;"></i>
+          <i class="fas fa-sort-down" style="line-height: 14px;"></i>
+          <i class="fas fa-sort-down" style="line-height: 14px;"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <canvas class="background" style="position:absolute;top:0;left:0;z-index:0;"></canvas>
+</div>
+
+<script src="https://unpkg.com/particlesjs@2.2.2/dist/particles.min.js"></script>
+<script>
+  window.onload = function () {
+    Particles.init({
+      selector: ".background",
+      color: "#c3c3c3",
+      maxParticles: 160,
+      connectParticles: true,
+      responsive: [
+        {
+          breakpoint: 968,
+          options: {
+            maxParticles: 0,
+          },
+        },
+      ],
+    });
+  };
+</script>
