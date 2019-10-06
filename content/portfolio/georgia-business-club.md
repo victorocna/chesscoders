@@ -1,5 +1,6 @@
 ---
 title: Georgia Business Club
+date: 2018-12-12
 layout: portfolio
 website: https://georgia-bc.ro
 image: /images/georgia-bc.jpg

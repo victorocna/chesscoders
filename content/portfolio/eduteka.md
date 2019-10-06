@@ -1,5 +1,6 @@
 ---
 title: Eduteka
+date: 2019-10-01
 layout: portfolio
 website: https://eduteka.ro
 image: /images/eduteka.jpg

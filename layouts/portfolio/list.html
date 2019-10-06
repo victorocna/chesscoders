@@ -3,19 +3,24 @@
   <h1 class="font-display font-bold text-3xl text-white">Portfolio</h1>
 </div>
 
-<ul class="px-8 py-12 caption-style-1">
+{{ partial "heading" (dict "h2" "Recent projects") }}
+
+<ul class="px-4 mb-8">
   {{ range .Pages }}
-  <li>
+  <li class="bg-gray-200 rounded">
     {{ $title := .Title }}
     {{ with .Params.image }}
 
-    <img src="{{ . }}" alt="{{$title}}" />
-    <div class="bg-primary text-white p-4 mb-4 flex justify-between items-center">
-      <h4 class="mr-1">{{$title}}</h4>
-      <a class="bg-red-500 px-4 py-1 rounded" href="{{$.Permalink}}">Details</a>
+    <div class="text-black p-4 pb-0 mt-8 flex justify-between items-center">
+      <h4 class="mr-1 text-sm font-semibold">{{$title}}</h4>
+      <a class="bg-red-700 text-white px-4 py-1 rounded text-sm" href="{{$.Permalink}}">Details</a>
     </div>
+    <img src="{{ . }}" alt="{{$title}}" class="p-4" />
     {{ end }}
   </li>
   {{ end }}
 </ul>
+
+{{ partial "teaser.html" }}
+
 {{ end }}

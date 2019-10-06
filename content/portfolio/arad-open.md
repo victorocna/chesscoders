@@ -1,5 +1,6 @@
 ---
 title: Arad Open
+date: 2019-08-26
 layout: portfolio
 website: https://aradopen.ro
 image: /images/aradopen.jpg

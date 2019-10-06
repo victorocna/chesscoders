@@ -1,5 +1,6 @@
 ---
 title: Cybersecurity Analyzer
+date: 2019-10-03
 layout: portfolio
 website: http://cybersecurityanalyzer.com
 image: /images/cybersecurity-analyzer.jpg

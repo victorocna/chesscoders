@@ -1,5 +1,6 @@
 ---
 title: Barbu Magic
+date: 2019-07-30
 layout: portfolio
 website: https://barbumagic.com
 image: /images/barbumagic.jpg

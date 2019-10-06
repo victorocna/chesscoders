@@ -1,5 +1,6 @@
 ---
 title: Miss Mary
+date: 2019-09-30
 layout: portfolio
 website: https://missmaryofficial.com
 image: /images/missmary.jpg

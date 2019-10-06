@@ -1,5 +1,6 @@
 ---
 title: Fast Solutions
+date: 2019-07-20
 layout: portfolio
 website: https://fast-solutions.group
 image: /images/fastgroup.jpg
