@@ -1,7 +1,7 @@
 ---
-title: Miss Mary
+title: Cybersecurity Analyzer
 layout: portfolio
-website: https://missmaryofficial.com
+website: http://cybersecurityanalyzer.com
 highlights: 
   - {icon: "fas fa-chalkboard-teacher", title: "Artificial Intelligence", description: "Cybersecurity Analyzer has the ability to understand documents related to cybersecurity."}
   - {icon: "fas fa-comments", title: "Machine Learning", description: "Similar to a humai being, our robot becomes smarter as it is trained."}

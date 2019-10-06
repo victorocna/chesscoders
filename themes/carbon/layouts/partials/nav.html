@@ -1,0 +1,19 @@
+<header class="w-full p-4 sticky top-0 flex justify-between items-center" style="background: rgba(38, 6, 51);">
+  <div class="flex items-center">
+    <img src="/chesscoders-logo.png" alt="Chess Coders Logo" />
+    <h1 class="text-white px-2 font-display text-xl">Chess Coders</h1>
+  </div>
+  <nav class="nav-menu inline-block">
+    <label class="block">
+      <input type="checkbox" />
+
+      {{ partial "menu-list.html" . }}
+
+      <div class="nav-container">
+        <div class="nav-icon one"></div>
+        <div class="nav-icon two"></div>
+        <div class="nav-icon three"></div>
+      </div>
+    </label>
+  </nav>
+</header>

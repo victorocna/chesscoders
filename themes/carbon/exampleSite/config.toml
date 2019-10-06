@@ -17,5 +17,3 @@ pygmentsStyle = "vs"
     github_user = "dirkolbrich"
     github_repo = "https://github.com/dirkolbrich/hugo-theme-tailwindcss-starter"
     github_banner = true
-
-    favicon = "favicon.ico"

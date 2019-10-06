@@ -1,15 +1,10 @@
 {{ define "main" }}
-<article class="">
+<article class="mb-8">
   <div class="gradient py-16 px-4 text-center">
     <h1 class="font-display font-bold text-3xl text-white">{{ .Title }}</h1>
   </div>
 
-  <h2 class="w-full text-center text-3xl font-semibold font-sans mt-8">
-    <a name="why-choose-us">Project highlights</a>
-  </h2>
-  <div class="w-full text-center text-red-600 mb-4">
-    <i class="fas fa-chevron-down"></i>
-  </div>
+  {{ partial "heading" (dict "h2" "Project highlights") }}
 
   {{ range .Params.Highlights }}
   <ul class="text-gray-800 text-left px-4">
@@ -25,12 +20,7 @@
   </ul>
   {{ end }}
 
-  <h2 class="w-full text-center text-3xl font-semibold font-sans mt-8">
-    <a name="why-choose-us">Skills & Technologies</a>
-  </h2>
-  <div class="w-full text-center text-red-600 mb-4">
-    <i class="fas fa-chevron-down"></i>
-  </div>
+  {{ partial "heading" (dict "h2" "Skills & Technologies") }}
 
   <div class="px-4 text-gray-700">
     {{ .Content }}

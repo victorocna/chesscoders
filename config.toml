@@ -8,6 +8,6 @@ enableRobotsTXT = true
   fonts = "https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro&display=swap"
   description = "Modern software solutions"
   image = ""
-  favicon = ""
+  favicon = "favicon.ico"
   analytics = ""
   fontAwesome = true
