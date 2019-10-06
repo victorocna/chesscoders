@@ -10,3 +10,4 @@ enableRobotsTXT = true
   image = ""
   favicon = ""
   analytics = ""
+  fontAwesome = true

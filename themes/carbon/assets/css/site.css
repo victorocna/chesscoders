@@ -1,3 +1,7 @@
+.gradient {
+  background: rgb(0, 0, 0) -webkit-linear-gradient(top, rgba(38, 6, 51) 40%, rgb(236, 97, 93) 100%) repeat scroll 0% 0%;
+}
+
 .nav-menu label {
   height: 2em;
   width: 2em;
