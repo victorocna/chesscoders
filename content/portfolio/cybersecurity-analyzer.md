@@ -2,13 +2,14 @@
 title: Cybersecurity Analyzer
 layout: portfolio
 website: http://cybersecurityanalyzer.com
+image: /images/cybersecurity-analyzer.jpg
 highlights: 
   - {icon: "fas fa-chalkboard-teacher", title: "Artificial Intelligence", description: "Cybersecurity Analyzer has the ability to understand documents related to cybersecurity."}
   - {icon: "fas fa-comments", title: "Machine Learning", description: "Similar to a humai being, our robot becomes smarter as it is trained."}
   - {icon: "fas fa-trophy", title: "Award", description: "Cybersecurity Analyzer was awarded the prestigious prize PatriotFest 2018."}
   - {icon: "fas fa-flask", title: "Research", description: "The solution is the result of 3 years of research conducted in The Bucharest University of Economic Studies."}
-hoursOfWork: 3800,
-specialists: 1,
+hoursOfWork: 3800
+specialists: 1
 stats:
   - {label: "Innovation", percentage: "100"}
   - {label: "Development", percentage: "100"}

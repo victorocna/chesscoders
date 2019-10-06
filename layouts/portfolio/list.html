@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="gradient py-16 px-4 text-center">
+  <h1 class="font-display font-bold text-3xl text-white">Portfolio</h1>
+</div>
+
+<ul class="px-8 py-12 caption-style-1">
+  {{ range .Pages }}
+  <li>
+    {{ $title := .Title }}
+    {{ with .Params.image }}
+
+    <img src="{{ . }}" alt="{{$title}}" />
+    <div class="bg-primary text-white p-4 mb-4 flex justify-between items-center">
+      <h4 class="mr-1">{{$title}}</h4>
+      <a class="bg-red-500 px-4 py-1 rounded" href="{{$.Permalink}}">Details</a>
+    </div>
+    {{ end }}
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

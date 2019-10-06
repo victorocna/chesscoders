@@ -25,5 +25,33 @@
   <div class="px-4 text-gray-700">
     {{ .Content }}
   </div>
+
+  <div class="px-4 my-8">
+    {{ range .Params.Stats }}
+    {{ partial "progressbar" (dict "label" .label "percentage" .percentage) }}
+    {{ end }}
+  </div>
+
+  <ul class="text-gray-800 text-left px-4">
+    <li class="my-4 flex">
+      <i class="border-2 border-red-600 text-red-700 p-2 mr-2 fas fa-clock"></i>
+      <span class="font-semibold text-gray-800 text-xl pr-1">
+        <span>{{ .Params.HoursOfWork }}</span>
+        <span class="text-gray-600 text-base">Hours of work</span>
+      </span>
+    </li>
+    <li class="mb-4 flex items-center">
+      <i class="border-2 border-red-600 text-red-700 p-2 mr-2 fas fa-user-secret"></i>
+      <span class="font-semibold text-gray-800 text-xl pr-1">
+        <span>{{ .Params.Specialists }}</span>
+        <span class="text-gray-600 text-base">Specialists</span>
+      </span>
+    </li>
+  </ul>
+
+  <div class="w-full text-center my-8">
+    <a href="{{ .Params.Website }}" target="_blank" class="border px-4 py-2 hover:border-red-600 hover:text-red-700"
+      rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> View official website</a>
+  </div>
 </article>
 {{ end }}

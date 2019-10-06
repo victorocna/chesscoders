@@ -2,11 +2,12 @@
 title: Barbu Magic
 layout: portfolio
 website: https://barbumagic.com
+image: /images/barbumagic.jpg
 highlights: 
   - {icon: "fas fa-flag", title: "CMS & E-commerce ready", description: "Visitors that want to level up their magic skills can order online and receive full video explanations in no time."}
   - {icon: "fas fa-users", title: "User friendly design", description: "User-friendly was the key for this website, considering that some visitors want to purchase magic tricks."}
-hoursOfWork: 25,
-specialists: 2,
+hoursOfWork: 25
+specialists: 2
 stats:
   - {label: "Design", percentage: "70"}
   - {label: "Development", percentage: "90"}
