@@ -1,14 +1,26 @@
-{{ define "main" }}
-<article class="text-center text-gray-700">
-  {{ partial "graph-home.html" . }}
-  {{ partial "header.html" . }}
-  {{ partial "who-we-are.html" . }}
-  {{ partial "why-choose-us.html" . }}
-  {{ partial "teaser.html" . }}
-  {{ partial "our-team.html" . }}
-  {{ partial "our-process.html" . }}
-  {{ partial "how-can-you-reach-us.html" . }}
-  {{ partial "contact-us.html" . }}
-</article>
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
 
-{{ end }}
+<head>
+  {{ partial "head.html" . }}
+  {{ partial "og.html" . }}
+</head>
+
+<body class="flex flex-col min-h-screen">
+  <main class="flex-1">
+    <article class="text-center text-gray-700">
+      {{ partial "graph-home.html" . }}
+      {{ partial "nav.html" . }}
+      {{ partial "who-we-are.html" . }}
+      {{ partial "why-choose-us.html" . }}
+      {{ partial "teaser.html" . }}
+      {{ partial "our-team.html" . }}
+      {{ partial "our-process.html" . }}
+      {{ partial "how-can-you-reach-us.html" . }}
+      {{ partial "contact-us.html" . }}
+    </article>
+  </main>
+  {{ partial "footer.html" . }}
+</body>
+
+</html>

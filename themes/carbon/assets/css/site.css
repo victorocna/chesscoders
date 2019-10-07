@@ -39,23 +39,16 @@
   margin: 0;
   height: 100vh;
   width: 15em;
-  padding: 0;
   list-style: none;
   transform: translateX(-100%);
   transition: all 0.2s ease;
   text-indent: 0;
   box-shadow: 0 0 30px transparent;
-  padding: 1em;
 }
 .nav-menu ul > li {
-  border-top-style: solid;
-  border-top-width: 1px;
   opacity: 0;
   transform: translateX(-100%);
   transition: all 0.3s ease 0.05s;
-}
-.nav-menu ul > li:first-child {
-  margin-top: 3em;
 }
 .nav-menu ul > li > a {
   padding: .75em 0;
@@ -87,30 +80,6 @@
 .nav-icon.three {
   margin-bottom: 0;
   transform-origin: 0% 100%;
-}
-
-/*
- * Transform all the slices of hamburger
- * into a crossmark.
- */
- .nav-menu input:checked ~ .nav-container > .nav-icon {
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-}
-
-/*
- * But let's hide the middle one.
- */
- .nav-menu input:checked ~ .nav-container > .nav-icon.two {
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-/*
- * Oh yeah and the last one should go the other direction
- */
- .nav-menu input:checked ~ .nav-container > .nav-icon.three {
-  transform: rotate(-45deg) translate(0, -1px);
 }
 
 @-webkit-keyframes bounce {
