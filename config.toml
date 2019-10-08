@@ -6,8 +6,9 @@ enableRobotsTXT = true
 [params]
   author = "Victor Ocnarescu"
   fonts = "https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro&display=swap"
+  sitename = "Chess Coders"
   description = "Modern software solutions"
-  image = ""
+  image = "/chesscoders-wallpaper.jpg"
   favicon = "favicon.ico"
-  analytics = ""
+  analytics = "UA-127399322-1"
   fontAwesome = true
