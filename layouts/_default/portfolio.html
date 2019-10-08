@@ -14,7 +14,7 @@
       </div>
       <div>
         <div class="font-semibold text-gray-800">{{ .title }}</div>
-        <div class="text-gray-600">{{ .description }}</div>
+        <div class="text-gray-600 text-sm">{{ .description }}</div>
       </div>
     </li>
     {{ end }}
@@ -22,7 +22,7 @@
 
   {{ partial "heading" (dict "h2" "Skills & Technologies") }}
 
-  <div class="px-4 text-gray-700">
+  <div class="px-4 text-gray-700 description">
     {{ .Content }}
   </div>
 

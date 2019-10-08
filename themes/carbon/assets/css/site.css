@@ -8,6 +8,9 @@ html {
 .gradient {
   background: rgb(0, 0, 0) -webkit-linear-gradient(top, rgba(38, 6, 51) 40%, rgb(236, 97, 93) 100%) repeat scroll 0% 0%;
 }
+.description p {
+  margin-bottom: 1rem;
+}
 
 .nav-menu label {
   width: 2em;
@@ -213,7 +216,7 @@ html {
 
 .progress-bar {
     background-color: #e3e3e3;
-    height: 45px;
+    height: 36px;
     margin: .8em 0;
 }
 
@@ -248,7 +251,7 @@ html {
   color: #fff;
   align-items: center;
   padding-left: 5px;
-  height: 45px;
+  height: 36px;
   background-color: #f3615a;
   position: relative;
 }

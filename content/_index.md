@@ -5,18 +5,18 @@ highlights:
   - {icon: "fas fa-cogs", title: "Modern Technologies", description: "We are up to date with modern technologies."}
   - {icon: "fas fa-cubes", title: "Complex Solutions", description: "Breaking complex solutions in small components is our key to bulletproof the services we are offering."}
 services:
-  - {icon: "fas fa-laptop", service: "Web Solutions", description: "Web solutions designed according to your needs. All solutions are smartphone and tablet responsive."}
-  - {icon: "fast fa-home", service: "Hosting Services", description: "We make sure your website is up 99.9% of the time. We provide SSL certificates for better security and better reliability."}
-  - {icon: "fas fa-receipt", service: "Domain Registration", description: "Tell us more about your project and we will find the most cost effective and visible domain name for you."}
-  - {icon: "fas fa-user-md", service: "Web Maintenance", description: "We know how important it is for you that your website is working smoothly. We are ready to make sure that your software is working 24 hours a day."}
-  - {icon: "fas fa-cubes", service: "Artificial Intelligence", description: "Artificial Intelligence is one of our many passions. We are currently working in research projects including Machine Learning and Big Data solutions. Tell us about your idea."}
-  - {icon: "fas fa-shield-alt", service: "Security Services", description: "Cybersecurity is one of the hottest topics in IT nowadays. We have experience both in penetration testing and security research. We are ready to find solutions to your software security concerns."}
+  - {icon: "fas fa-laptop", title: "Web Solutions", description: "Web solutions designed according to your needs. All solutions are smartphone and tablet responsive."}
+  - {icon: "fas fa-home", title: "Hosting Services", description: "We make sure your website is up 99.9% of the time. We provide SSL certificates for better security and better reliability."}
+  - {icon: "fas fa-table", title: "Domain Registration", description: "Tell us more about your project and we will find the most cost effective and visible domain name for you."}
+  - {icon: "fas fa-user-md", title: "Web Maintenance", description: "We know how important it is for you that your website is working smoothly. We are ready to make sure that your software is working 24 hours a day."}
+  - {icon: "fas fa-cubes", title: "Artificial Intelligence", description: "Artificial Intelligence is one of our many passions. We are currently working in research projects including Machine Learning and Big Data solutions. Tell us about your idea."}
+  - {icon: "fas fa-shield-alt", title: "Security Services", description: "Cybersecurity is one of the hottest topics in IT nowadays. We have experience both in penetration testing and security research. We are ready to find solutions to your software security concerns."}
 process:
-  - {icon: "fas fa-phone-alt", service: "First Contact", description: "Meeting and talking about your project. What are the key points of your business?"}
-  - {icon: "fas fa-list-ol", service: "Planning & signing the contract", description: "Project time management process plan. Establishing intermediary deadlines."}
-  - {icon: "fas fa-briefcase", service: "Implementation", description: "Working on your software solutions and developing everything as discussed."}
-  - {icon: "fas fa-magic", service: "Tweaks & feedback", description: "Is everything as you wished? What do you want to improve? We will tweak your project so it is close to perfect."}
-  - {icon: "fas fa-expand-arrows-alt", service: "Testing & launching", description: "No software solution is ready until we test it. We make sure everything works smoothly before the official launch."}
+  - {icon: "fas fa-phone", title: "First Contact", description: "Meeting and talking about your project. What are the key points of your business?"}
+  - {icon: "fas fa-list-ol", title: "Planning & signing the contract", description: "Project time management process plan. Establishing intermediary deadlines."}
+  - {icon: "fas fa-briefcase", title: "Implementation", description: "Working on your software solutions and developing everything as discussed."}
+  - {icon: "fas fa-magic", title: "Tweaks & feedback", description: "Is everything as you wished? What do you want to improve? We will tweak your project so it is close to perfect."}
+  - {icon: "fas fa-expand-arrows-alt", title: "Testing & launching", description: "No software solution is ready until we test it. We make sure everything works smoothly before the official launch."}
 team:
   - {
     member: "Tiberiu Georgescu", 
