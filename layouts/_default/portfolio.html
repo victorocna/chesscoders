@@ -6,8 +6,8 @@
 
   {{ partial "heading" (dict "h2" "Project highlights") }}
 
-  {{ range .Params.Highlights }}
   <ul class="text-gray-800 text-left px-4">
+    {{ range .Params.Highlights }}
     <li class="mb-4 flex">
       <div class="mt-1">
         <i class="border-2 border-red-600 text-red-700 p-2 mr-2 {{ .icon }}"></i>
@@ -17,8 +17,8 @@
         <div class="text-gray-600">{{ .description }}</div>
       </div>
     </li>
+    {{ end }}
   </ul>
-  {{ end }}
 
   {{ partial "heading" (dict "h2" "Skills & Technologies") }}
 

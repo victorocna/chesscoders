@@ -11,4 +11,20 @@
     digital services. We are motivated not only to develop high quality software solutions, but also
     to integrate them into your day-to-day activities.
   </p>
+
+  <ul class="text-gray-800 text-left">
+    {{ range .Params.Highlights }}
+    <li class="mb-4 flex">
+      <div class="mt-1 mr-2">
+        <div class="border-2 border-red-600 text-red-700 w-12 h-12 flex items-center justify-center">
+          <i class="{{ .icon }}"></i>
+        </div>
+      </div>
+      <div>
+        <div class="font-semibold text-gray-800">{{ .title }}</div>
+        <div class="text-gray-600">{{ .description }}</div>
+      </div>
+    </li>
+    {{ end }}
+  </ul>
 </div>
