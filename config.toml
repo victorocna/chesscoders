@@ -1,6 +1,7 @@
-languageCode = "en-US"
+baseUrl = "https://chesscoders.netlify.com"
 title = "Chess Coders | Modern software solutions"
 theme = "carbon"
+languageCode = "en-US"
 enableRobotsTXT = true
 
 [params]
