@@ -1,28 +1,31 @@
 <div class="flex flex-col py-8 px-4" style="background: #301937">
-  <h2 class="w-full text-center text-3xl text-white font-semibold font-sans">
-    <a name="our-services">Our services</a>
-  </h2>
-  <div class="w-full text-center text-red-600 mb-4">
-    <i class="fas fa-chevron-down"></i>
-  </div>
+  <div class="lg:mx-auto" style="max-width: 1200px;">
+    <h2 class="w-full text-center text-3xl text-white font-semibold font-sans">
+      <a name="our-services">Our services</a>
+    </h2>
+    <div class="w-full text-center text-red-600 mb-4">
+      <i class="fas fa-chevron-down"></i>
+    </div>
 
-  <div class="flex flex-wrap">
-    {{ range $i,$p := .Params.Services }}
-    {{ $oddEven := "text-white" }}
-    {{ if not (modBool $i 2) }}
-    {{ $oddEven = "bg-white" }}
-    {{ end }}
-    <div class="flex flex-col items-center sm:w-1/2 border-2 border-red-400 sm:border-0 p-4 mb-8 {{$oddEven}}">
-      <div class="mb-2">
-        <div class="border-2 border-red-400 text-red-500 w-12 h-12 flex items-center justify-center text-xl">
-          <i class="{{ .icon }}"></i>
+    <div class="flex flex-wrap">
+      {{ range $i,$p := .Params.Services }}
+      {{ $oddEven := "text-white" }}
+      {{ if not (modBool $i 2) }}
+      {{ $oddEven = "bg-white" }}
+      {{ end }}
+      <div
+        class="flex flex-col items-center sm:w-1/2 lg:w-1/3 border-2 border-red-400 sm:border-0 p-4 mb-8 {{$oddEven}}">
+        <div class="mb-2">
+          <div class="border-2 border-red-400 text-red-500 w-12 h-12 flex items-center justify-center text-xl">
+            <i class="{{ .icon }}"></i>
+          </div>
+        </div>
+        <h4 class="text-xl font-semibold">{{ .title }}</h4>
+        <div class="mt-2">
+          {{ .description }}
         </div>
       </div>
-      <h4 class="text-xl font-semibold">{{ .title }}</h4>
-      <div class="mt-2">
-        {{ .description }}
-      </div>
+      {{ end }}
     </div>
-    {{ end }}
   </div>
 </div>

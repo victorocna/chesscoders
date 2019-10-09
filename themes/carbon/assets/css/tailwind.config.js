@@ -8,7 +8,10 @@ module.exports = {
       fontSize: {
         '7xl': '5rem',
         '8xl': '5.75rem',
-      }
+      },
+      maxWidth: {
+        '3/4': '75%',
+      },
     },
   },
   variants: {},

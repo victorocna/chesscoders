@@ -5,6 +5,10 @@
 /* Site Specific */
 @import "assets/css/site";
 /* Animations */
-@import "assets/css/animations";
+@import "assets/css/lib/animate";
 /* Tailwind's utility classes - generated based on config file */
 @import "node_modules/tailwindcss/utilities";
+
+@import "assets/css/progressbar";
+@import "assets/css/swiper";
+@import "assets/css/bounce";
