@@ -1,16 +1,4 @@
 ---
-label: Portfolio Template
+label: 
 hide_body: false
-fields:
-- type: text
-  name: title
-  label: title
-- type: date
-  name: date
-  label: date
-- type: text
-  name: layout
-  label: layout
-- type: url
-  name: website
-  label: website
+fields: []
