@@ -1,4 +1,20 @@
 ---
 label: Highlights
 hide_body: true
-fields: []
+fields:
+- name: icon
+  type: text
+  config:
+    required: false
+  label: Icon
+  description: Font awesome icon class
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
