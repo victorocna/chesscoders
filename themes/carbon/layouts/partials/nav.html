@@ -6,12 +6,12 @@
     </a>
     <nav class="nav-menu inline-block">
       <label class="block">
-        <input type="checkbox" id="menu" class="lg:hidden" />
+        <input type="checkbox" id="menu" class="lg:hidden" aria-label="Menu open/close" />
 
         {{ partial "menu-list.html" . }}
       </label>
     </nav>
-    <button class="w-8 h-8 text-white lg:hidden" onclick="openMenu()">
+    <button class="w-8 h-8 text-white lg:hidden" onclick="openMenu()" aria-label="Open menu">
       <i class="fas fa-bars w-8 text-2xl" id="menubutton"></i>
     </button>
   </div>
