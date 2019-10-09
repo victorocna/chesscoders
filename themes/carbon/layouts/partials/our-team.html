@@ -8,7 +8,7 @@
     <i class="fas fa-chevron-down"></i>
   </div>
 
-  <div class="swiper-container w-full sm:w-2/3">
+  <div class="swiper-container w-full sm:w-2/3" style="max-width: 1200px">
     <div class="swiper-wrapper flex align-center">
       {{ range .Params.Team }}
       <div class="swiper-slide">
@@ -41,6 +41,12 @@
     autoplay: {
       delay: 7000,
       disableOnInteraction: false
+    },
+    breakpoints: {
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 50,
+      },
     }
   });
 </script>

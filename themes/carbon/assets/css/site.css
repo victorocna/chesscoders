@@ -2,6 +2,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.contact-us {
+  background-image: url("/images/chesscoders-contact-us.jpg")
+}
+.why-choose-us {
+  background-image: url("/images/chesscoders-why-choose-us.jpg")
+}
+.how-can-you-reach-us {
+  background-image: url("/images/chesscoders-how-you-can-reach-us.jpg")
+}
 .bg-primary {
   background: rgb(38, 6, 51)
 }
