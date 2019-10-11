@@ -13,3 +13,11 @@ enableRobotsTXT = true
   favicon = "favicon.ico"
   analytics = "UA-127399322-1"
   fontAwesome = true
+
+[menu]
+  [[menu.home]]
+    name = "About us"
+    url = "#who-we-are"
+  [[menu.home]]
+    name = "Portfolio"
+    url = "/portfolio"
