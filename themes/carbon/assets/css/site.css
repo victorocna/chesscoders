@@ -21,6 +21,15 @@ html {
   margin-bottom: 1rem;
 }
 
+.hover-scale .hover-target {
+  transform: scale(1);
+  transition: transform .2s linear,-webkit-transform .2s linear;
+}
+.hover-scale:hover .hover-target {
+  transform: scale(1.2);
+  transition: transform .2s linear,-webkit-transform .2s linear;
+}
+
 .nav-menu label {
   width: 2em;
   margin: 2px;

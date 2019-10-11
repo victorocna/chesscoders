@@ -13,9 +13,9 @@
       {{ if not (modBool $i 2) }}
       {{ $oddEven = "bg-white text-black" }}
       {{ end }}
-      <div class="flex sm:w-1/2 lg:w-1/3 text-white">
+      <div class="flex sm:w-1/2 lg:w-1/3 text-white hover-scale">
         <div class="flex flex-col items-center border-2 border-red-400 px-4 py-8 m-4 {{$oddEven}}">
-          <div class="mb-2">
+          <div class="mb-2 hover-target">
             <div class="border-2 border-red-400 text-red-500 w-12 h-12 flex items-center justify-center text-xl">
               <i class="{{ .icon }}"></i>
             </div>
