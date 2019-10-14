@@ -4,39 +4,11 @@
       <i class="fas fa-times"></i>
     </button>
   </li>
+  {{ range .Site.Menus.main }}
   <li class="border-gray-200 px-4 border-b border-gray-200 lg:border-0">
-    <a href="/" class="block lg:inline">
-      <span class="menu-text">Home</span>
+    <a href="{{.URL}}" class="block lg:inline">
+      <span class="menu-text">{{ .Name }}</span>
     </a>
   </li>
-  <li class="border-gray-200 px-4 border-b border-gray-200 lg:border-0">
-    <a href="/#who-we-are" class="block lg:inline">
-      <span class="menu-text">About us</span>
-    </a>
-  </li>
-  <li class="border-gray-200 px-4 border-b border-gray-200 lg:border-0">
-    <a href="/#our-services" class="block lg:inline">
-      <span class="menu-text">Services</span>
-    </a>
-  </li>
-  <li class="border-gray-200 px-4 border-b border-gray-200 lg:border-0">
-    <a href="/portfolio" class="block lg:inline">
-      <span class="menu-text">Portfolio</span>
-    </a>
-  </li>
-  <li class="border-gray-200 px-4 border-b border-gray-200 lg:border-0">
-    <a href="/#our-team" class="block lg:inline">
-      <span class="menu-text">Our Team</span>
-    </a>
-  </li>
-  <li class="border-gray-200 px-4 border-b border-gray-200 lg:border-0">
-    <a href="/#our-process" class="block lg:inline">
-      <span class="menu-text">Our Process</span>
-    </a>
-  </li>
-  <li class="border-gray-200 px-4 border-b border-gray-200 lg:border-0">
-    <a href="/#contact-us" class="block lg:inline">
-      <span class="menu-text">Contact us</span>
-    </a>
-  </li>
+  {{ end }}
 </ul>

@@ -15,9 +15,31 @@ enableRobotsTXT = true
   fontAwesome = true
 
 [menu]
-  [[menu.home]]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 100
+  [[menu.main]]
     name = "About us"
     url = "#who-we-are"
-  [[menu.home]]
+    weight = 110
+  [[menu.main]]
+    name = "Services"
+    url = "#our-services"
+    weight = 120
+  [[menu.main]]
     name = "Portfolio"
     url = "/portfolio"
+    weight = 130
+  [[menu.main]]
+    name = "Our Team"
+    url = "#our-team"
+    weight = 140
+  [[menu.main]]
+    name = "Our Process"
+    url = "#our-process"
+    weight = 150
+  [[menu.main]]
+    name = "Contact us"
+    url = "#contact-us"
+    weight = 160
