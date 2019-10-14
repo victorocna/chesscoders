@@ -2,6 +2,36 @@ html {
   scroll-behavior: smooth;
 }
 
+.animate-me {
+  animation-duration: .8s;
+}
+.delay-me {
+  animation-fill-mode: forwards;
+  animation-delay: .8s;
+  opacity: 0;
+}
+
+.fancy-border {
+  position: relative;
+}
+.fancy-border::before,
+.fancy-border::after {
+  width: 60px;
+  left: 50%;
+  top: 10px;
+  margin-left: -80px;
+  border: solid 1px;
+  position: absolute;
+  content: "";
+  transform: scaleY(1.5);
+}
+.fancy-border::after {
+  margin-left: 20px;
+}
+.fancy-border > i {
+  margin-top: -30px;
+}
+
 .contact-us {
   background-image: url("/images/chesscoders-contact-us.jpg")
 }
@@ -23,11 +53,15 @@ html {
 
 .hover-scale .hover-target {
   transform: scale(1);
-  transition: transform .2s linear,-webkit-transform .2s linear;
+  transition: transform .4s linear,-webkit-transform .4s linear;
 }
 .hover-scale:hover .hover-target {
   transform: scale(1.2);
-  transition: transform .2s linear,-webkit-transform .2s linear;
+  transition: transform .4s linear,-webkit-transform .4s linear;
+}
+.hover-scale:hover img.hover-target {
+  opacity: .9;
+  transform: scale3d(1.1, 1.1, 1);
 }
 
 .nav-menu label {
