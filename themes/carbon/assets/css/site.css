@@ -3,11 +3,11 @@ html {
 }
 
 .animate-me {
-  animation-duration: .8s;
+  animation-duration: 1.2s;
 }
 .delay-me {
   animation-fill-mode: forwards;
-  animation-delay: .8s;
+  animation-delay: 1.2s;
   opacity: 0;
 }
 
@@ -15,12 +15,20 @@ html {
 .graph-right {
   position: absolute;
   top: -100px;
-  left: -25vw;
+  left: -20vw;
   transform: rotate(-40deg);
 }
 .graph-right {
-  left: 25vw;
+  left: 20vw;
   transform: rotate(40deg);
+}
+@media (min-width: 768px) {
+  .graph-left {
+    left: -30vw;
+  }
+  .graph-right {
+    left: 26vw;
+  }
 }
 @media (min-width: 1024px) {
   .graph-left {
