@@ -15,12 +15,20 @@ html {
 .graph-right {
   position: absolute;
   top: -100px;
-  left: -600px;
+  left: -25vw;
   transform: rotate(-40deg);
 }
 .graph-right {
-  left: 600px;
+  left: 25vw;
   transform: rotate(40deg);
+}
+@media (min-width: 1024px) {
+  .graph-left {
+    left: -40vw;
+  }
+  .graph-right {
+    left: 32vw;
+  }
 }
 
 .fancy-border {
