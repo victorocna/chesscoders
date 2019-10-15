@@ -1,7 +1,15 @@
-<div class="relative h-screen bg-cover bg-center bg-no-repeat"
+<div class="relative h-screen bg-cover bg-center bg-no-repeat overflow-hidden"
   style="background-image: url(/images/chesscoders-home.jpg)">
-  <div class="opacity-75 h-screen"
+  <div class="opacity-75 h-screen" id="scene"
     style="background: rgb(0, 0, 0) -webkit-linear-gradient(top, rgba(38, 6, 51) 40%, rgb(236, 97, 93) 100%) repeat scroll 0% 0%;">
+      <div data-depth="0.2">
+        <div class="w-full opacity-50 graph-left">
+          <img src="/chesscoders-graph.png" class="w-full" alt="Chesscoders Graph Design" />
+        </div>
+        <div class="w-full opacity-50 graph-right">
+          <img src="/chesscoders-graph.png" class="w-full" alt="Chesscoders Graph Design" />
+        </div>
+      </div>
   </div>
   <div class="flex w-full h-screen items-center justify-center p-8"
     style="position: absolute; top:0; left:0; z-index: 1;">
@@ -25,3 +33,9 @@
     </div>
   </div>
 </div>
+
+<script src="https://unpkg.com/parallax-js@3.1.0/dist/parallax.min.js" async></script>
+<script>
+  var scene = document.getElementById("scene");
+  var parallaxInstance = new Parallax(scene);
+</script>

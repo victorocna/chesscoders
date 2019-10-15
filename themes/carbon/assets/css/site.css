@@ -11,6 +11,18 @@ html {
   opacity: 0;
 }
 
+.graph-left,
+.graph-right {
+  position: absolute;
+  top: -100px;
+  left: -600px;
+  transform: rotate(-40deg);
+}
+.graph-right {
+  left: 600px;
+  transform: rotate(40deg);
+}
+
 .fancy-border {
   position: relative;
 }
