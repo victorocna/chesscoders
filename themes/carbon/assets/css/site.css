@@ -11,6 +11,10 @@ html {
   opacity: 0;
 }
 
+.box-technologies p {
+  margin-bottom: .75em;
+}
+
 .graph-left,
 .graph-right {
   position: absolute;
@@ -62,6 +66,9 @@ html {
 
 .contact-us {
   background-image: url("/images/chesscoders-contact-us.jpg")
+}
+.our-technologies {
+  background-image: url("/images/chesscoders-our-technologies.jpg")
 }
 .why-choose-us {
   background-image: url("/images/chesscoders-why-choose-us.jpg")
