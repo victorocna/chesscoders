@@ -17,7 +17,7 @@
       <div class="w-fukl lg:w-1/2 lg:pr-4">
         <div class="text-3xl text-red-600">
           {{ range $icon := .Params.Icons }}
-          <i class="{{ $icon }}"></i>
+          <i class="p-1 {{ $icon }}"></i>
           {{ end }}
         </div>
         <h4 class="font-bold text-xl">{{ .Title }}</h4>
