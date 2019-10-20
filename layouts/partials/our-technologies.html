@@ -14,7 +14,7 @@
 
     <div class="flex flex-wrap box-technologies">
       {{ range where .Pages "Section" "technologies" }}
-      <div class="w-fukl lg:w-1/2 lg:pr-4">
+      <div class="w-full lg:w-1/2 lg:pr-4">
         <div class="text-3xl text-red-600">
           {{ range $icon := .Params.Icons }}
           <i class="p-1 {{ $icon }}"></i>

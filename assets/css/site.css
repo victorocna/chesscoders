@@ -12,7 +12,7 @@ html {
 }
 
 .box-technologies p {
-  margin-bottom: .75em;
+  margin-bottom: 0.75em;
 }
 
 .graph-left,
@@ -65,22 +65,23 @@ html {
 }
 
 .contact-us {
-  background-image: url("/images/chesscoders-contact-us.jpg")
+  background-image: url("/images/chesscoders-contact-us.jpg");
 }
 .our-technologies {
-  background-image: url("/images/chesscoders-our-technologies.jpg")
+  background-image: url("/images/chesscoders-our-technologies.jpg");
 }
 .why-choose-us {
-  background-image: url("/images/chesscoders-why-choose-us.jpg")
+  background-image: url("/images/chesscoders-why-choose-us.jpg");
 }
 .how-can-you-reach-us {
-  background-image: url("/images/chesscoders-how-you-can-reach-us.jpg")
+  background-image: url("/images/chesscoders-how-you-can-reach-us.jpg");
 }
 .bg-primary {
-  background: rgb(38, 6, 51)
+  background: rgb(38, 6, 51);
 }
 .gradient {
-  background: rgb(0, 0, 0) -webkit-linear-gradient(top, rgba(38, 6, 51) 40%, rgb(236, 97, 93) 100%) repeat scroll 0% 0%;
+  background: rgb(0, 0, 0) -webkit-linear-gradient(top, rgba(38, 6, 51) 40%, rgb(236, 97, 93) 100%) repeat
+    scroll 0% 0%;
 }
 .description p {
   margin-bottom: 1rem;
@@ -88,14 +89,14 @@ html {
 
 .hover-scale .hover-target {
   transform: scale(1);
-  transition: transform .4s linear,-webkit-transform .4s linear;
+  transition: transform 0.4s linear, -webkit-transform 0.4s linear;
 }
 .hover-scale:hover .hover-target {
   transform: scale(1.2);
-  transition: transform .4s linear,-webkit-transform .4s linear;
+  transition: transform 0.4s linear, -webkit-transform 0.4s linear;
 }
 .hover-scale:hover img.hover-target {
-  opacity: .9;
+  opacity: 0.9;
   transform: scale3d(1.1, 1.1, 1);
 }
 
@@ -145,7 +146,7 @@ html {
   transition: all 0.3s ease 0.05s;
 }
 .nav-menu ul > li > a {
-  padding: .75em 0;
+  padding: 0.75em 0;
   text-decoration: none;
   transition: all 0.1s ease;
 }
@@ -173,10 +174,10 @@ html {
     position: relative;
   }
   .nav-menu a:hover .menu-text::before {
-    animation: bounceInDown .8s;
+    animation: bounceInDown 0.8s;
     position: absolute;
     opacity: 1;
-    transition: opacity .3s,transform .3s;
+    transition: opacity 0.3s, transform 0.3s;
     bottom: -6px;
     height: 2px;
     background: #f3615a;

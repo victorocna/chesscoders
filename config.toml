@@ -1,18 +1,20 @@
 baseUrl = "https://chesscoders.netlify.com"
 title = "Chess Coders | Modern software solutions"
-theme = "carbon"
+theme = "ion"
 languageCode = "en-US"
 enableRobotsTXT = true
 
 [params]
   author = "Victor Ocnarescu"
-  fonts = "https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro&display=swap"
+  fonts = "https://fonts.googleapis.com/css?family=Libre+Baskerville|Roboto&display=swap"
   sitename = "Chess Coders"
   description = "Modern software solutions"
   image = "/chesscoders-wallpaper.jpg"
   favicon = "favicon.ico"
   analytics = "UA-127399322-1"
   fontAwesome = true
+  headingFont = "'Libre Baskerville', serif"
+  bodyFont = "'Roboto', sans-serif"
 
 [menu]
   [[menu.main]]
