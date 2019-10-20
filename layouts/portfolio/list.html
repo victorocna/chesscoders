@@ -3,7 +3,9 @@
   <h1 class="font-display font-bold text-3xl text-white">Portfolio</h1>
 </div>
 
-{{ partial "heading" (dict "h2" "Recent projects") }}
+<div class="mt-8">
+  {{ partial "heading" (dict "h2" "Recent projects") }}
+</div>
 
 <ul class="px-4 lg:px-0 flex flex-wrap lg:mx-auto" style="max-width: 1200px">
   {{ range .Pages }}

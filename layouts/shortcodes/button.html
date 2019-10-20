@@ -1,0 +1,4 @@
+<div class="text-left p-3 pl-0 lg:inline">
+  {{ $href := .Get "href" }}
+  <a href="{{ $href }}" class="bg-red-700 text-white py-2 px-4 text-sm" target='{{with .Get "target"}}{{.}}{{end}}'>{{.Get "text"}}</a>
+</div>

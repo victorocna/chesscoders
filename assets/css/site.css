@@ -86,6 +86,14 @@ html {
 .description p {
   margin-bottom: 1rem;
 }
+.description a {
+  color: rgb(197, 48, 48);
+  text-decoration: underline;
+}
+.description a.text-white {
+  color: #fff;
+  text-decoration: none;
+}
 
 .hover-scale .hover-target {
   transform: scale(1);
