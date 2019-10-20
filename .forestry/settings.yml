@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: content/admin
-webhook_url: 
+webhook_url:
 sections:
 - type: directory
   path: content
@@ -12,6 +12,16 @@ sections:
 - type: directory
   path: content/portfolio
   label: Portfolio
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/home
+  label: Home sections
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/technologies
+  label: Technologies
   create: all
   match: "**/*"
 upload_dir: static/images
@@ -28,4 +38,4 @@ build:
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: hugo server --renderToDisk --port 8080 --bind 0.0.0.0
-version: 0.56.0
+version: 0.57.2
