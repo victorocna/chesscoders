@@ -5,6 +5,6 @@ layout: portfolio
 draft: true
 
 ---
-Lorem ipsum dolor sin amet
+Bacon ipsum dolor amet salami brisket kevin capicola pork shank andouille chuck porchetta, turkey tongue beef ribs swine beef prosciutto.
 
 {{% youtube "SECVGN4Bsgg" %}}
