@@ -9,19 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/victorocna/hugo-tailwindcss-example.git"
+    "url": "git+https://github.com/victorocna/chesscoders.git"
   },
   "keywords": [
     "hugo",
     "tailwindcss",
     "netlify"
   ],
-  "author": "victorocna <victor@chesscoders.com> (https://victorocna.com)",
+  "author": "victorocna <victor@chesscoders.com> (https://chesscoders.com)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/victorocna/hugo-tailwindcss-example/issues"
-  },
-  "homepage": "https://github.com/victorocna/hugo-tailwindcss-example#readme",
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
     "autoprefixer": "^9.6.1",
