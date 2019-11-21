@@ -14,6 +14,8 @@ enableRobotsTXT = true
   fontAwesome = true
   headingFont = "'Libre Baskerville', serif"
   bodyFont = "'Roboto', sans-serif"
+  primaryColor = "#007b85"
+  secondaryColor = "#4252b1"
 
 [menu]
   [[menu.main]]
