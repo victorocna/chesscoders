@@ -1,4 +1,4 @@
-# Chesscoders
+# Chesscoders [![Netlify Status](https://api.netlify.com/api/v1/badges/16ad964a-2f15-4028-98f0-b0faf50b8b2e/deploy-status)](https://app.netlify.com/sites/chesscoders/deploys)
 
 The Chesscoders.com website
 
